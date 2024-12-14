@@ -8,9 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+		height: {
+			'mobileW': '100vw'
+		},
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+		  'logo-light': '#fff8c1ff',
+		  'logo-dark': '#370055ff',
       },
     },
   },
