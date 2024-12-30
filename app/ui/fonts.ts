@@ -2,12 +2,12 @@ import { Lusitana, Ubuntu, DM_Serif_Display } from 'next/font/google';
 import localFont from "next/font/local";
 
 export const geistSans = localFont({
-	src: "./ui/fonts/GeistVF.woff",
+	src: "./fonts/GeistVF.woff",
 	variable: "--font-geist-sans",
 	weight: "100 900",
  });
 export const geistMono = localFont({
-	src: "./ui/fonts/GeistMonoVF.woff",
+	src: "./fonts/GeistMonoVF.woff",
 	variable: "--font-geist-mono",
 	weight: "100 900",
  });

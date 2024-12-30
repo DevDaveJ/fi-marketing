@@ -16,6 +16,8 @@ export default {
         foreground: "var(--foreground)",
 		  'logo-light': '#fff8c1ff',
 		  'logo-dark': '#370055ff',
+		  'primary': '#5D0090ff',
+		  'secondary': '#DAD086'
       },
     },
   },

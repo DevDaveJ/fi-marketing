@@ -22,12 +22,12 @@ const Checkbox: React.FC<CheckboxProps> = ({
    };
 
    return (
-      <label className="flex ">
+      <label className="flex justify-start ">
          <input
             type="checkbox"
             checked={isChecked}
             onChange={handleChange}
-            className="peer h-6 w-6 mr-3 border border-black outline-2 placeholder:text-gray-500"
+            className="peer min-w-4 h-4 mr-2 border border-black outline-2 placeholder:text-gray-500"
          />
          <div>{label}</div>
       </label>
